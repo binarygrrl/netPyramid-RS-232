@@ -10,12 +10,14 @@
     <projectUrl>https://github.com/PyramidTechnologies/netPyramid-RS-232</projectUrl>
     <iconUrl>https://dev.pyramidacceptors.com/images/logo_solo.png</iconUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
-    <description>$description$</description>
+    <description>
+	Provides an event-driven wrapper around a serial port for RS-232 bill validator integration.
+	</description>
     <releaseNotes>
 	In escrow mode, the escrow state now treated as event instead of state change. 
 	Fix log log4net dependency resolution
 	</releaseNotes>
-    <copyright>Copyright 2016</copyright>
+    <copyright>Copyright Pyramid Technologies 2016</copyright>
     <tags>RS-232 BillValidator Pyramid PTI</tags>
     <dependencies>
       <dependency id="log4net" version="[2.0.5]" />
